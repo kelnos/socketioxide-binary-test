@@ -1,0 +1,12 @@
+[package]
+name = "socketioxide-binary-test-server"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+axum = "0.7"
+serde_json = "1"
+socketioxide = { version = "0.10", features = ["v4"] }
+tokio = { version = "1", features = ["full"] }
